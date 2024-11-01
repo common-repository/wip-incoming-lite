@@ -1,0 +1,324 @@
+body { 
+	margin-top: 0 ;
+    padding-top: 0;
+	background:#f3f3f3; 
+	font-family:'Montserrat',Verdana, Geneva, sans-serif;
+	color:#616161;
+	font-size:14px; 
+}
+
+/* ===============================================
+   General
+   ============================================= */
+
+a,
+p, 
+li, 
+address, 
+dd, 
+blockquote, 
+td, 
+th { 
+	line-height:1.81em;
+	font-family:'Montserrat',Verdana, Geneva, sans-serif; 
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p, 
+dl, 
+ul, 
+ol { 
+	margin:0.8em 0 0.3em; 
+}   
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 { 
+	font-weight: normal; 
+}
+      
+h1 { 
+	font-size: 26px;
+}
+h2 { 
+	font-size: 24px;
+}
+h3 { 
+	font-size: 21px;
+}
+h4 { 
+	font-size: 16px;
+}
+h5 { 
+	font-size: 14px;
+}
+h6 { 
+	font-size: 12px;
+}
+
+a { 
+	outline: none; 
+	border:none; 
+	-webkit-transition: all .3s ease; 
+	-moz-transition: all .3s ease; 
+	-o-transition: all .3s ease;
+	font-weight:normal; 
+	text-decoration:none;
+	color:#616161;
+}
+
+a:hover {
+	color:#e0716a;
+}
+
+button:hover ,
+button:active ,
+button:focus ,
+input:hover ,
+input:active ,
+input:focus ,
+textarea:hover ,
+textarea:active ,
+textarea:focus {
+	outline:none !important;
+	text-decoration:none !important;
+}
+
+/* ===============================================
+   Wrapper
+   ============================================= */
+   
+#wrapper {
+	margin:50px auto;
+	background-color:#fff;
+	padding:60px 120px;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+   
+/* ===============================================
+   Header
+   ============================================= */
+
+#logo { 
+	position:relative; 
+	padding:0; 
+	margin:auto; 
+	text-align:center;
+	margin-bottom:60px;
+}
+
+#logo a {
+	font-size:40px; 
+	text-decoration:none; 
+	text-align:left
+} 
+
+#logo span { 
+	display:block; 
+	text-align:center;
+	line-height:1.4em
+}
+
+#logo a:hover {
+	text-decoration:none;
+}
+
+#logo a i {
+	margin:0 20px 0 0;
+}
+
+/* ===============================================
+   Content
+   ============================================= */
+
+.content {
+	font-size:14px;
+	position:relative;
+	line-height:1.6em;
+	margin-bottom:60px
+}
+
+.content h2 {
+	margin:0 0 50px 0;
+}
+
+/* ===============================================
+   Countdown
+   ============================================= */
+
+ul#countdown {
+	list-style: none;
+	margin-bottom:60px;
+	padding: 0;
+	display: block;
+	text-align:center; 
+	position:relative; 
+	font-family:'Montserrat',Verdana, Geneva, sans-serif;
+	display:none;
+	visibility:hidden;
+}
+
+ul#countdown.countdown_active {
+	display:block;
+	visibility:visible;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+}
+
+ul#countdown li { 
+	display: inline-block;
+	text-align:center;
+	padding:0 20px;
+	position:relative;
+	line-height:inherit;
+}
+
+ul#countdown li span.time {
+	font-size: 60px;
+	font-weight: 300;
+}
+
+ul#countdown li span.time p {
+	font-size: 25px;
+}
+
+/* ===============================================
+   Newsletter widget
+   ============================================= */
+
+.newsletter-form input[type=text] {
+	padding: 10px 1%;
+	width: 72%; 
+	margin:0;
+	color:#616161;
+	font-size:14px;
+	background:#fff;
+	border:none;
+	border:solid 1px #fafafa;
+}
+
+.newsletter-form input[type=submit] {
+	color:#fff;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease; 
+	-o-transition: all .3s ease;
+	font-size:14px;
+	text-align:center;
+	position:relative;
+	display: inine-block;
+	text-shadow:none;
+	padding: 10px 1%;
+	width:23%;
+	margin:auto;
+	background:#f97e76;
+	border:solid 1px #f97e76;
+}
+
+.newsletter-form input[type=submit]:hover {
+	background:#e0716a;
+	border-color:#e0716a;
+	color:#fff;
+	text-decoration:none
+}
+
+.newsletter-text {
+	margin-bottom:25px;
+}
+
+.newsletter form {
+	margin:0 auto;
+}
+
+#mc_message { 
+	margin:10px 0; 
+}
+
+.mc_error_msg {
+	color:red;
+}
+
+.mc_success_msg {
+	color:green;
+	font-weight: normal;
+}
+
+.col-md-12 .newsletter form , 
+.col-md-12 #mc_message{
+	text-align:center
+}
+
+.col-md-12  h2.title,
+.col-md-12  .content {
+	text-align:center
+}
+
+
+/* ===============================================
+   Social buttons
+   ============================================= */
+
+.social-buttons {
+	float:none;
+	width:100%;
+	text-align:center;
+	margin-bottom:30px; 
+}
+
+.social-buttons a { 
+	display:inline-block; 
+	margin: 0; 
+	height:30px;
+	width:30px;
+	text-align:center;
+	line-height:30px;
+	color:#fff;
+	background:#f97e76
+}
+
+.social-buttons a:hover { 
+	background:#e0716a;
+	color:#fff;
+}
+
+/* ===============================================
+   Copyright
+   ============================================= */
+
+#copyright { 
+	font-size:14px; 
+	text-align:center; 
+}
+
+#copyright a {
+	text-decoration:none; 
+}
+
+@media screen and (min-width : 0) and (max-width : 479px) {	
+
+	.newsletter-form input[type=text],
+	.social-buttons a { 
+		margin: 0 0 15px 0; 
+	}
+
+	ul#countdown li,
+	.newsletter-form input[type=text],
+	.newsletter-form input[type=submit] {
+		display: block;
+	}
+	
+	.newsletter-form input[type=text],
+	.newsletter-form input[type=submit] {
+		width:100%;
+	}
+	
+}

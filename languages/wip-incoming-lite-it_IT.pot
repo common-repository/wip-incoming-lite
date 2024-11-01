@@ -1,0 +1,498 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WIP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-20 16:03+0200\n"
+"PO-Revision-Date: 2015-02-05 17:47+0100\n"
+"Last-Translator: Alessandro Vellutini <vellutini@hotmail.it>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core/admin/panel.php:19 core/admin/panel.php:40 init.php:54
+msgid "Settings"
+msgstr ""
+
+#: core/admin/panel.php:20
+msgid "Header"
+msgstr ""
+
+#: core/admin/panel.php:21 core/admin/panel.php:196
+msgid "Colors"
+msgstr ""
+
+#: core/admin/panel.php:22 core/admin/panel.php:239
+msgid "Background"
+msgstr ""
+
+#: core/admin/panel.php:23
+msgid "Newsletter"
+msgstr ""
+
+#: core/admin/panel.php:24 core/admin/panel.php:360
+msgid "Social buttons"
+msgstr ""
+
+#: core/admin/panel.php:25
+msgid "Import/Export"
+msgstr ""
+
+#: core/admin/panel.php:42
+msgid "Active Incoming."
+msgstr ""
+
+#: core/admin/panel.php:43
+msgid "Do you want to enable WIP Incoming plugin?"
+msgstr ""
+
+#: core/admin/panel.php:48
+msgid "Character sets"
+msgstr ""
+
+#: core/admin/panel.php:49
+msgid "Choose the character sets you want:"
+msgstr ""
+
+#: core/admin/panel.php:53
+msgid "Latin"
+msgstr ""
+
+#: core/admin/panel.php:54
+msgid "Latin Extended"
+msgstr ""
+
+#: core/admin/panel.php:55
+msgid "Cyrillic"
+msgstr ""
+
+#: core/admin/panel.php:56
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: core/admin/panel.php:57
+msgid "Greek"
+msgstr ""
+
+#: core/admin/panel.php:58
+msgid "Greek Extended"
+msgstr ""
+
+#: core/admin/panel.php:59
+msgid "Vietnamese"
+msgstr ""
+
+#: core/admin/panel.php:63
+msgid "Font"
+msgstr ""
+
+#: core/admin/panel.php:64
+msgid "Select the main font of coming soon page."
+msgstr ""
+
+#: core/admin/panel.php:70
+msgid "Titles size"
+msgstr ""
+
+#: core/admin/panel.php:71
+msgid "Choose a size for titles"
+msgstr ""
+
+#: core/admin/panel.php:77
+msgid "Content size"
+msgstr ""
+
+#: core/admin/panel.php:78
+msgid "Choose a size for the content"
+msgstr ""
+
+#: core/admin/panel.php:84
+msgid "Content."
+msgstr ""
+
+#: core/admin/panel.php:85
+msgid "Add the content of your coming soon page."
+msgstr ""
+
+#: core/admin/panel.php:90
+msgid "Horizontal wrapper padding."
+msgstr ""
+
+#: core/admin/panel.php:91
+msgid "Insert the top and bottom padding of wrapper."
+msgstr ""
+
+#: core/admin/panel.php:96
+msgid "Vertical wrapper padding."
+msgstr ""
+
+#: core/admin/panel.php:97
+msgid "Insert the left and right padding of wrapper."
+msgstr ""
+
+#: core/admin/panel.php:102
+msgid "Wrapper opacity"
+msgstr ""
+
+#: core/admin/panel.php:103
+msgid "Insert the opacity of wrapper (Add a value between 0 and 100)."
+msgstr ""
+
+#: core/admin/panel.php:108
+msgid "Transparent wrapper."
+msgstr ""
+
+#: core/admin/panel.php:109
+msgid "Do you want to make transparent the wrapper?"
+msgstr ""
+
+#: core/admin/panel.php:114
+msgid "Custom Css."
+msgstr ""
+
+#: core/admin/panel.php:115
+msgid "Insert your custom css code."
+msgstr ""
+
+#: core/admin/panel.php:137 core/admin/panel.php:317
+msgid "Countdown"
+msgstr ""
+
+#: core/admin/panel.php:139
+msgid "Logo"
+msgstr ""
+
+#: core/admin/panel.php:140
+msgid "Upload your logo."
+msgstr ""
+
+#: core/admin/panel.php:146
+msgid "Logo font size"
+msgstr ""
+
+#: core/admin/panel.php:147
+msgid "Choose a size for logo"
+msgstr ""
+
+#: core/admin/panel.php:153
+msgid "Countdown."
+msgstr ""
+
+#: core/admin/panel.php:154
+msgid "Do you want to enable the countdown?"
+msgstr ""
+
+#: core/admin/panel.php:159
+msgid "Countdown time size"
+msgstr ""
+
+#: core/admin/panel.php:160
+msgid "Choose a size for the countdown time (only the numbers)"
+msgstr ""
+
+#: core/admin/panel.php:166
+msgid "Countdown text size"
+msgstr ""
+
+#: core/admin/panel.php:167
+msgid ""
+"Choose a size for the countdown text (only the text like 'day','hours' "
+"etc)"
+msgstr ""
+
+#: core/admin/panel.php:173
+msgid "Countdown end."
+msgstr ""
+
+#: core/admin/panel.php:174
+msgid "Set the end of the countdown."
+msgstr ""
+
+#: core/admin/panel.php:198
+msgid "Wrapper background"
+msgstr ""
+
+#: core/admin/panel.php:199
+msgid "Choose a color for wrapper background."
+msgstr ""
+
+#: core/admin/panel.php:204
+msgid "Text color"
+msgstr ""
+
+#: core/admin/panel.php:205
+msgid "Choose a color for the text."
+msgstr ""
+
+#: core/admin/panel.php:210
+msgid "Button color"
+msgstr ""
+
+#: core/admin/panel.php:211
+msgid "Choose a color for buttons."
+msgstr ""
+
+#: core/admin/panel.php:216
+msgid "Button color at hover"
+msgstr ""
+
+#: core/admin/panel.php:217
+msgid "Choose a color for buttons at hover."
+msgstr ""
+
+#: core/admin/panel.php:241
+msgid "Background Color"
+msgstr ""
+
+#: core/admin/panel.php:242
+msgid "Choose a color for body background."
+msgstr ""
+
+#: core/admin/panel.php:247
+msgid "Custom image background"
+msgstr ""
+
+#: core/admin/panel.php:248
+msgid "Upload a image for body background."
+msgstr ""
+
+#: core/admin/panel.php:255 core/admin/panel.php:256
+#: core/admin/panel.php:261
+msgid "Repeat"
+msgstr ""
+
+#: core/admin/panel.php:262
+msgid "No repeat"
+msgstr ""
+
+#: core/admin/panel.php:263
+msgid "Repeat orizzontal"
+msgstr ""
+
+#: core/admin/panel.php:264
+msgid "Repeat vertical"
+msgstr ""
+
+#: core/admin/panel.php:268 core/admin/panel.php:269
+msgid "Background Position"
+msgstr ""
+
+#: core/admin/panel.php:284 core/admin/panel.php:285
+msgid "Background Attachment"
+msgstr ""
+
+#: core/admin/panel.php:294
+msgid "Background cover."
+msgstr ""
+
+#: core/admin/panel.php:295
+msgid ""
+"Do you want to show a full background image, using the 'CSS3 cover' rule?"
+msgstr ""
+
+#: core/admin/panel.php:319
+msgid "Newsletter."
+msgstr ""
+
+#: core/admin/panel.php:320
+msgid "Do you want to enable the newsletter section?"
+msgstr ""
+
+#: core/admin/panel.php:325
+msgid "Title"
+msgstr ""
+
+#: core/admin/panel.php:326
+msgid ""
+"Add the title of newsletter (leave empty if you want to hide the title)"
+msgstr ""
+
+#: core/admin/panel.php:331
+msgid "URL action"
+msgstr ""
+
+#: core/admin/panel.php:332
+msgid "Set the action url of your form."
+msgstr ""
+
+#: core/admin/panel.php:337
+msgid "EMAIL name attribute"
+msgstr ""
+
+#: core/admin/panel.php:338
+msgid "Add the 'name' attribute of the email field."
+msgstr ""
+
+#: core/admin/panel.php:362
+msgid "Facebook Url"
+msgstr ""
+
+#: core/admin/panel.php:363
+msgid "Insert Facebook Url (leave empty if you want to hide the button)"
+msgstr ""
+
+#: core/admin/panel.php:368
+msgid "Twitter Url"
+msgstr ""
+
+#: core/admin/panel.php:369
+msgid "Insert Twitter Url (leave empty if you want to hide the button)"
+msgstr ""
+
+#: core/admin/panel.php:374
+msgid "Flickr Url"
+msgstr ""
+
+#: core/admin/panel.php:375
+msgid "Insert Flickr Url (leave empty if you want to hide the button)"
+msgstr ""
+
+#: core/admin/panel.php:380
+msgid "Google Url"
+msgstr ""
+
+#: core/admin/panel.php:381
+msgid "Insert Google Url (leave empty if you want to hide the button)"
+msgstr ""
+
+#: core/admin/panel.php:386
+msgid "Linkedin Url"
+msgstr ""
+
+#: core/admin/panel.php:387
+msgid "Insert Linkedin Url (leave empty if you want to hide the button)"
+msgstr ""
+
+#: core/admin/panel.php:392
+msgid "Pinterest Url"
+msgstr ""
+
+#: core/admin/panel.php:393
+msgid "Insert Pinterest Url (leave empty if you want to hide the button)"
+msgstr ""
+
+#: core/admin/panel.php:398
+msgid "Tumblr Url"
+msgstr ""
+
+#: core/admin/panel.php:399
+msgid "Insert Tumblr Url (leave empty if you want to hide the button)"
+msgstr ""
+
+#: core/admin/panel.php:404
+msgid "Youtube Url"
+msgstr ""
+
+#: core/admin/panel.php:405
+msgid "Insert Youtube Url (leave empty if you want to hide the button)"
+msgstr ""
+
+#: core/admin/panel.php:410
+msgid "Skype Url"
+msgstr ""
+
+#: core/admin/panel.php:411
+msgid ""
+"Insert Skype ID (leave empty if you want to hide the button), you can add "
+"<strong>'skype:'</strong>, after your ID (for example skype:alexvtn)"
+msgstr ""
+
+#: core/admin/panel.php:416
+msgid "Instagram  Url"
+msgstr ""
+
+#: core/admin/panel.php:417
+msgid "Insert Instagram Url (leave empty if you want to hide the button)"
+msgstr ""
+
+#: core/admin/panel.php:422
+msgid "Github  Url"
+msgstr ""
+
+#: core/admin/panel.php:423
+msgid "Insert Github Url (leave empty if you want to hide the button)"
+msgstr ""
+
+#: core/admin/panel.php:428
+msgid "Xing  Url"
+msgstr ""
+
+#: core/admin/panel.php:429
+msgid "Insert Xing Url (leave empty if you want to hide the button)"
+msgstr ""
+
+#: core/admin/panel.php:434
+msgid "WhatsApp number"
+msgstr ""
+
+#: core/admin/panel.php:435
+msgid ""
+"Insert WhatsApp number (leave empty if you want to hide the button), you "
+"can add <strong>'tel:</strong>', for start a call (for example tel:"
+"+39333122333)"
+msgstr ""
+
+#: core/admin/panel.php:440
+msgid "Email Address"
+msgstr ""
+
+#: core/admin/panel.php:441
+msgid ""
+"Insert Email Address (leave empty if you want to hide the button), you "
+"can add <strong>'mailto:</strong>', after your email (for example mailto:"
+"info@wpinprogress.com)"
+msgstr ""
+
+#: core/admin/panel.php:463 core/admin/panel.php:465
+msgid "Import / Export"
+msgstr ""
+
+#: core/includes/class-panel.php:29 core/includes/class-panel.php:30
+#: core/includes/class-panel.php:247
+msgid "WIP Incoming"
+msgstr ""
+
+#: core/includes/class-panel.php:171
+msgid "Options saved successfully."
+msgstr ""
+
+#: core/includes/class-panel.php:588
+msgid "Current plugin settings"
+msgstr ""
+
+#: core/includes/class-panel.php:590
+msgid "Download current plugin settings"
+msgstr ""
+
+#: core/includes/class-panel.php:597 core/includes/class-panel.php:598
+msgid "Reset plugin settings"
+msgstr ""
+
+#: core/includes/class-panel.php:599
+msgid ""
+"If you click the button above, the plugin options return to its default "
+"values"
+msgstr ""
+
+#: core/includes/class-panel.php:606 core/includes/class-panel.php:608
+msgid "Import plugin settings"
+msgstr ""
+
+#: templates/layout.php:110
+msgid "Your email"
+msgstr ""
+
+#: templates/layout.php:111
+msgid "Sign Up"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Categories: "
+#~ msgstr "Categorisa"

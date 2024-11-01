@@ -1,0 +1,62 @@
+/* ===============================================
+   NOTICE SECTION
+   =============================================== */
+   
+.wip-incoming-lite-notice {
+	width:100;
+	display:block;
+	border-color:#ec7063;
+	padding:25px
+}
+
+.wip-incoming-lite-notice .dismiss-notice {
+	margin-top:5px;
+	font-size:12px;
+}
+
+.wip-incoming-lite-notice .wip-incoming-lite-noticedescription {
+	float:left;
+	font-size:14px;
+}
+
+.wip-incoming-lite-notice .button {
+	background: #ec7063;
+	border:solid 2px #ec7063;
+	color:#fff !important;
+	padding: 8px 16px;
+	height:auto;
+	line-height:normal;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	float:right;
+	text-transform:uppercase;
+	font-weight:bold
+}
+
+.wip-incoming-lite-notice .button:hover ,
+.wip-incoming-lite-notice .button:active ,
+.wip-incoming-lite-notice .button:focus {
+	border-color: #e74c3c;
+	background-color:#e74c3c;
+}
+
+@media screen and (max-width: 782px) {
+
+	.wip-incoming-lite-notice {
+		margin-top: 15px !important;
+	}
+
+	.wip-incoming-lite-notice .wip-incoming-lite-noticedescription {
+		float:none;
+		text-align:center;
+	}
+
+	.wip-incoming-lite-notice .button {
+		float: none;
+		margin: 10px 0 0 0;
+		width: 100%;
+		text-align: center;	
+	}
+
+}
